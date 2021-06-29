@@ -1,0 +1,75 @@
+
+.wrapper{
+    margin:  50px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 2px 6px #909192;
+    box-sizing: border-box;
+}
+
+.list-title{
+    padding-top: 30px;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: rgb(19, 49, 131);
+}
+
+.addtodo{
+    margin: 30px -20px 30px 30px;
+    font-size: 35px;
+    border-radius: 10px;
+    padding: 10px 50px;
+}
+
+.addbut{
+    font-size: 50px;
+    padding: 0px 14px;
+    border-radius: 50px; 
+    background-color: white;
+    color: black;
+    border: none;
+    position: relative;
+    left: 37px;
+}
+.addbut:active {
+    background-color: rgb(19, 49, 131);
+    color: #c8c8c8;
+}
+
+.list-wrapper{
+    border: 1px solid #c8c8c8;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin: 0px 40px 10px 30px;
+}
+
+.list{
+    font-size: 35px;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin: 5px;
+}
+
+.list-through{
+    font-size: 35px;
+    border-radius: 5px;
+    padding: 10px 30px;
+    margin: 5px;
+    text-decoration: line-through;
+    background-color: #f7edb5;
+}
+
+
+.remove{
+    float: right;
+}
+.remove:hover{
+    color: tomato;
+    cursor: pointer;
+}
+
+.none{
+    display: none;
+}

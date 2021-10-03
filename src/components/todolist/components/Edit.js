@@ -1,12 +1,14 @@
 import {useState} from 'react'
 
 const Edit = ({ setData }) =>{
-  const [ inputValue , setInputValue ] = useState('')
+  const [ inputValue , setInputValue ] = useState("")
   
   const updateData = () =>{
     // TODO tip 2
+    if(inputValue!==''){
     setData((prev) => [...prev, { text: inputValue, isComplete: false }])
-  }
+    setInputValue("")
+  }}
 
   console.log('inputValue',inputValue);
   return (
